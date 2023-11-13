@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quizParent{
+    margin-top: 50px;
+    width: 380px;
+    height: 380px;
+    background: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.centerQuizFinish h3{
+    font-size: 25px;
+    padding: 10px;
+}
+.backBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.backBtn button{
+    cursor: pointer;
+}
